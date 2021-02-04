@@ -10,14 +10,14 @@
 <body>
 <h1 align="center">Calculadora PHP Simple</h1>
 <form action="index.php" method="post">
-  <input type="text" name="n1" value="0">
+  <input type="number" name="n1" value="0">
   <select class="" name="opciones">
   <option value="+">+</option>
   <option value="-">-</option>
   <option value="*">*</option>
   <option value="/">/</option>
 </selec>
- <input type="text" name="n2" value="0">
+ <input type="number" name="n2" value="0">
  <input type="submit"  value="Calcular">
 </form>  
 
